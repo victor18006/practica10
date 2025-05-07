@@ -20,4 +20,8 @@ public class Bomba extends Elemento implements Destruible {
     public String toString() {
         return "B";
     }
+
+    public int getRadio() {
+        return radio;
+    }    
 }
