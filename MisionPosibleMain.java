@@ -11,9 +11,11 @@ public class MisionPosibleMain {
         System.out.println("Estado inicial del escenario:");
         System.out.println(escenario);
 
-        System.out.print("Ingrese la posición de la bomba a detonar (renglon columna): ");
+        System.out.print("Ingrese la posición de la bomba a detonar (renglon-espacio-columna): ");
         int r = sc.nextInt();
         int c = sc.nextInt();
+
+        sc.close();
 
         Elemento elegido = escenario.getElementoEn(r, c);
         if (elegido instanceof Bomba) {

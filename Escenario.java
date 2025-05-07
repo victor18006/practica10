@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.io.*;
-import java.util.*;
 
 public class Escenario {
     private String nombre;
